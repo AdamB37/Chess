@@ -1,0 +1,40 @@
+.chessboard {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 80rem;
+  width: 80rem;
+}
+
+.chess-row {
+  height: 8rem;
+  width: 100%;
+}
+
+.chess-block {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px 2px 2px 2px;
+  height: 100%;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+}
+
+.chess-row:nth-child(even) .chess-block:nth-child(even) {
+  background-color: rgba(250,250,100,0.5);
+}
+.chess-row:nth-child(odd) .chess-block:nth-child(odd) {
+  background-color: rgba(250,250,100,0.5);
+}
+
+.chess-row:nth-child(even) .chess-block:nth-child(odd) {
+  background-color: rgba(50,50,50,0.5);
+}
+.chess-row:nth-child(odd) .chess-block:nth-child(even) {
+  background-color: rgba(50,50,50,0.5);
+}

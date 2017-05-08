@@ -1,0 +1,28 @@
+html, body, #mount {
+  height: 100%;
+  width: 100%;
+}
+
+
+.default-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+//////////////
+// Components
+@import './stylesheets/chessboard';
